@@ -1,0 +1,158 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* Big Tablet from 1024px to 1200px */
+
+@media screen and (max-width: 1200px){
+    .row{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+/* Big Tablet from 768px to 1023px */
+
+@media screen and (max-width: 1023px){
+    html{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .long-para{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:first-child{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+        margin-top: 30px;
+    }
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 60px;
+    }
+    .app-screen{
+        width: 50%;
+    }
+    .icon-small{
+        width: 20px;
+        margin-right: 3px;
+    }
+    .city-feature{
+        font-size: 90%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+}
+
+/* Small Tablet from 481px to 767px */
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .row, .hero-text-box{
+        width: 100%;
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .long-para{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .works-step{
+        margin-bottom: 20px;
+    }
+    .works-step div{
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 20px;
+    }
+    .steps-box:first-child{
+        text-align: center;
+    }
+    .app-screen{
+        width: 40%;
+    }
+    .mobile-icon{
+        display: inline-block;
+    }
+    .main-nav{
+        margin: 35px 0 0 25px;
+        float: left;
+        border: 0;
+    }
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+    .main-nav li{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+    .main li a{
+        display: block;
+        border: none;
+        font-size: 100%;
+        padding: 10px 0;
+    }
+    .main-nav li a:hover{
+        border: none;
+    }
+    .sticky .main li a{
+        padding: 10px 0;
+    }
+    .sticky .mobile-icon i{
+        color: #555;
+    }
+}
+
+/* Small phone from 0 to 480px */
+
+@media screen and (max-width: 480px){
+    section{
+        padding: 25px 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
